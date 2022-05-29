@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio Site</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="./images/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- blog section -->
+    <section id="blog">
+      <div class="blog-heading">
+        <span>市毛彰人</span>
+        <h3>My Portfolio</h3>
+      </div>
+    </section>
+
+    <!-- blog container -->
+    <div class="blog-container">
+      
+      
+
+      
+
+      <!-- text -->
+      <div class="blog-text">
+        <span>2022年5月20日</span>
+        <a href="./index.html" class="blog-title">ECサイト制作の過程で得られたもの</a>
+        </a>
+        <div class="blog-block">
+          <h2>初めてECサイトを制作してみて</h2>
+          <p>
+            「表示速度が0.1秒遅くなれば1％売り上げが減少し、1秒早くなれば10%売り上げが上がる」という言葉をそのままに受け取り、
+            クライアントサイドにJavaScript(React)、決済機能にStripeを使用するSPAの構築を決定しました。<br>
+            当初はクライアントサイドのみで完結する簡単な仕事と思っていましたが、実際は想像以上に困難な仕事になりました。以下で自分が特に苦労したこと(法律とフィードバック)を記します。
+          <br>
+          拙い文ですが、ご興味があれば一読ください。
+        </p>
+        </div>
+        <div class="blog-block">
+          <h2>①法律</h2>
+          <p>個人的に最も苦労した部分です。自分自身、Amazonのようなサービスを当たり前のように使いながら、ECサイト立ち上げに当たって必要な法律面について何も理解していませんでした。<br>
+          インターネットで検索をかけるも、プライバシーポリシーなどの難解な法律文書を自作できるはずもなく、途方に暮れていたところ、「KIYAC」というサービスを発見しました。<br>
+        これは自動で法律文書を作成してくれるサービスで、年5000円ほどの費用がかかりましたが、こちらを利用することにしました。
+        <br>
+        参考までにKIYACへのリンクを貼っておきます。<a href="https://kiyac.app/">KIYAC公式サイト</a>
+        </p>
+        </div>
+        <div class="blog-block">
+          <h2>②フィードバック-決済機能について-</h2>
+          <p>
+            <br>
+            StripeのシンプルなUIを気に入っていたのですが、身内や知人から返ってきたフィードバックは「確認画面が出ずに、ワンクリックで決済が完了するので不安だ」というものでした。
+          <br>
+        そこで、決済を別のサービスに任せることにしました。利用したのはBASEです。無料でオンラインショップを開設でき、商品ごとにページのURLを発行してくれるので、お手軽に既存のウェブサイトにリンクを組み込む事ができました。
+        <br>
+        初めてのフィードバックでしたが、BASEで決済機能を実装したことで、これなら安心だと言っていただき、ひとまず改善を果たす事ができました。
+        <br>
+        反面、独立したオンラインショップを開設したことで、メインの機能がBASEに移ってしまい、本来のCUSTOMLABOのサイトの意義が薄れてしまいました。
+        </p>
+        </div>
+        <div class="blog-block">
+          <h2>まとめ</h2>
+          <p>実際にECサイトを構築するのと、チュートリアルでアプリに決済機能を組み込んでみるだけとでは、こうも違うのかと驚かされました。特にstripeからBASEに決済機能を移したことで、当初作成したサイトの意義が揺らいだのは予想外でした。
+            <br>
+            このサイトを残すかどうか判断が難しいところではありますが、ユーザーのUI/UXを高めるという観点から決定する予定です。BASEに一本化した方が顧客体験が高まるというのであれば、当然このサイトは破棄しなければなりません。
+            <br>
+            単に勉強した結果をアウトプットするためであったり、自分の技術を見せびらかすのでは通用しないのだなと痛感させられた一件でした。
+          </p>
+        </div>
+      </div>
+      
+    </div>
+  </body>
+</html>
